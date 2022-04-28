@@ -8,13 +8,14 @@ body {
 .board {
 	display: grid;
 	justify-content: center;
-	grid-template-columns: repeat(5, 100px);
-	grid-template-rows: repeat(6, 100px);
+	grid-template-columns: repeat(5, 50px);
+	grid-template-rows: repeat(6, 50px);
 	gap: 5px;
 }
 
 .board-item {
 	border: 0.5px solid;
+	border-radius: 5px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -24,8 +25,8 @@ body {
 	margin-top: 50px;
 	display: grid;
 	justify-content: center;
-	grid-template-columns: repeat(10, 50px);
-	grid-template-rows: repeat(3, 50px);
+	grid-template-columns: repeat(10, 30px);
+	grid-template-rows: repeat(3, 30px);
 	gap: 5px;
 }
 
@@ -34,4 +35,5 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	border-radius: 5px;
 }
