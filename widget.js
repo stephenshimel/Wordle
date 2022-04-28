@@ -118,7 +118,7 @@ const Dictionary = [
 	"Mouth",
 	"Music",
 	"Night",
-	// Noise,
+	"Noise",
 	// North,
 	// Novel,
 	// Nurse,
