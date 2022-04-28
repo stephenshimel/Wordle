@@ -1,0 +1,35 @@
+/* Add CSS here */
+body{
+    text-align: center;
+}
+
+.board{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(5,100px);
+    grid-template-rows: repeat(6,100px);
+    gap:5px;
+}
+
+.board-item{
+    border:0.5px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.keyboard{
+    margin-top:50px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(10,50px);
+    grid-template-rows: repeat(3,50px);
+    gap:5px;
+}
+
+.key-item{
+    border:0.5px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
